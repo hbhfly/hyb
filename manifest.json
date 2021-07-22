@@ -1,5 +1,6 @@
 {
-   "commerceSuiteVersion": "1811.0",
+   "commerceSuiteVersion": "1905",
+   "solrVersion": "8.9"
    "extensions": [
        "mcc",
        "backoffice",
