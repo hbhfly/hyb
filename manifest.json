@@ -2,7 +2,6 @@
    "commerceSuiteVersion": "1905",
    "solrVersion": "8.9",
    "extensions": [
-       "mcc",
        "backoffice",
        "platformbackoffice",
        "basecommercebackoffice",  
