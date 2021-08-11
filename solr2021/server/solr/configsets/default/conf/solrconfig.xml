@@ -110,7 +110,7 @@
 		<lst name="spellchecker">
 			<str name="name">default</str>
 			<str name="classname">org.apache.solr.spelling.suggest.Suggester</str>
-			<str name="lookupImpl">org.apache.solr.spelling.suggest.tst.TSTLookup</str>
+                        <str name="lookupImpl">FSTLookupFactory</str>
 			<str name="field">autosuggest</str>
 			<str name="buildOnCommit">true</str>
 			<str name="buildOnOptimize">true</str>
@@ -119,7 +119,7 @@
 		<lst name="spellchecker">
 			<str name="name">en</str>
 			<str name="classname">org.apache.solr.spelling.suggest.Suggester</str>
-			<str name="lookupImpl">org.apache.solr.spelling.suggest.tst.TSTLookup</str>
+                        <str name="lookupImpl">FSTLookupFactory</str>
 			<str name="field">autosuggest_en</str>
 			<str name="buildOnCommit">true</str>
 			<str name="buildOnOptimize">true</str>
