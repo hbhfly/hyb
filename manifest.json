@@ -1,6 +1,11 @@
 {
    "commerceSuiteVersion": "1905",
    "solrVersion": "8.9",
+   "useConfig": {
+	  "solr": {
+	     "location": "customsolr"
+	   }
+	 },
    "extensions": [
        "backoffice",
        "platformbackoffice",
