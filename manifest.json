@@ -3,7 +3,7 @@
    "solrVersion": "8.9",
    "useConfig": {
       "solr": {
-	 "location": "customsolr"
+	 "location": "solr2021"
       }
    },
    "extensions": [
