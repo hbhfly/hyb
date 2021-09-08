@@ -1,5 +1,5 @@
 {
-   "commerceSuiteVersion":"2011.7",
+   "commerceSuiteVersion":"1905",
    "solrVersion": "8.6",
    "extensions":[
       "commerceservicesbackoffice",
