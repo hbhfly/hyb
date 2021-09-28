@@ -191,7 +191,7 @@
                  {
                     "key": "cluster.node.groups",
                     "value": "integration,yHotfolderCandidate"
-                }
+                },
                 {
                     "key": "processengine.process.canjoinpreviousnode.default",
                     "value": "true"
