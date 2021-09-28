@@ -1,5 +1,5 @@
 {
-   "commerceSuiteVersion": "1811.0",
+   "commerceSuiteVersion": "2011.5",
    "extensions": [
        "mcc",
        "backoffice",
@@ -56,6 +56,7 @@
        "b2bsapproductavailability",
        "sapproductavailabilitybackoffice",
        "sapcreditcheckbackoffice",
+       "multicloudhotfolder",
        "sapcoretest"
    ],
    "storefrontAddons" : [
@@ -66,6 +67,7 @@
         }        
     ],
    "properties": [
+
         {
             "key": "test.property.1",
             "value": "test.property.1.value"
@@ -152,6 +154,20 @@
        {
             "name": "backgroundProcessing",
             "properties": [
+                    {
+            "key": "cloud.hotfolder.storage.file.sort.name.sequence",
+            "value": "^(?:.*)-(\\d+)\\.*"
+        },
+        {
+            "key": "cloud.hotfolder.storage.file.vendor.id.sequence",
+            "value": "^products-(.*)-\\d+\\.*"
+}, {
+            "value": "acme"
+        },
+        {
+            "key": "cloud.hotfolder.ACME21f10.zip.header.catalog",
+            "value": "acmeProductCatalog"
+},
                 {
                     "key": "cluster.node.groups",
                     "value": "backgroundProcessing"
@@ -172,6 +188,10 @@
                     "key": "task.polling.interval",
                     "value": "1"
                 },
+                 {
+                    "key": "cluster.node.groups",
+                    "value": "integration,yHotfolderCandidate"
+                }
                 {
                     "key": "processengine.process.canjoinpreviousnode.default",
                     "value": "true"
