@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ [y] hybris Platform
+
+ Copyright (c) 2017 SAP SE or an SAP affiliate company.  All rights reserved.
+
+ This software is the confidential and proprietary information of SAP
+ ("Confidential Information"). You shall not disclose such Confidential
+ Information and shall use it only in accordance with the terms of the
+ license agreement you entered into with SAP.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:int="http://www.springframework.org/schema/integration"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration.xsd
+           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- Container pooler declaration, one per vendor -->
+    <import resource="cloudhotfolder/integration/azure-container-acme.xml"/>
+    <import resource="cloudhotfolder/integration/azure-container-gw.xml"/>
+
+    <!-- Catalog name is retrieved from filename -->
+    <bean id="zipHeaderSetupTask" class="com.hybris.es.cloud.azure.hotfolder.MultiZipHeaderSetupTask">
+        <property name="unzippedRootDirectory" ref="zipProcessingDir"/>
+        <property name="headerKeyFile" ref="fileNameHeaderKey"/>
+        <property name="headerKeyUnzippedFolder" ref="unzippedFolderHeaderKey"/>
+        <property name="vendorPattern" value="${cloud.hotfolder.storage.file.vendor.id.sequence}" />
+        <property name="net" value="${cloud.hotfolder.default.zip.header.net}" />
+    </bean>
+
+</beans>
