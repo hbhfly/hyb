@@ -17,6 +17,9 @@
 
         <!-- you should add all required extensions to this list, except platform extensions which are automatically required -->
         <requires-extension name="azurecloudhotfolder"/>
+      <requires-extension name="acceleratorservices"/>
+      <requires-extension name="commerceservices"/>
+      <requires-extension name="cloudcommons"/>
 
         <coremodule generated="true" manager="com.hybris.es.cloud.azure.hotfolder.jalo.MulticloudhotfolderManager" packageroot="com.hybris.es.cloud.azure.hotfolder"/>
 
