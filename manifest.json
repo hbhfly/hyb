@@ -61,6 +61,11 @@
       "azurecloudhotfolder",
      "cloudhotfolder",
      "cloudcommons", 
+     
+      "acceleratorservices",
+      "commerceservices",
+      "cloudcommons",
+     
       "sapcoretest"
    ],
    "storefrontAddons":[
