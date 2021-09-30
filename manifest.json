@@ -58,6 +58,9 @@
       "sapproductavailabilitybackoffice",
       "sapcreditcheckbackoffice",
       "multicloudhotfolder",
+      "azurecloudhotfolder",
+     "cloudhotfolder",
+     "cloudcommons", 
       "sapcoretest"
    ],
    "storefrontAddons":[
