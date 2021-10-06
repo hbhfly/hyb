@@ -63,10 +63,7 @@
      "cloudcommons", 
      "yacceleratorcore",
       "acceleratorservices",
-      "commerceservices",
-      "cloudcommons",
-     
-      "sapcoretest"
+      "commerceservices"
    ],
    "storefrontAddons":[
       {
