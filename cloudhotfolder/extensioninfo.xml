@@ -18,7 +18,7 @@
               usemaven="true">
 
       <requires-extension name="acceleratorservices"/>
-      <requires-extension name="azurecloudhotfolder"/>
+      <!--requires-extension name="azurecloudhotfolder"/-->
       <requires-extension name="commerceservices"/>
       <requires-extension name="cloudcommons"/>
 
