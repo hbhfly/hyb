@@ -20,7 +20,7 @@
 <constructor-arg ref="azureHotFolderBlobSessionVendorGW"/>
 </bean>
 
-<bean id="azureBlobInboundSynchronizerVendorGW" class="de.hybris.platform.cloud.azure.hotfolder.remote.synchronizer.AzureBlobInboundSynchronizer">
+<bean id="azureBlobInboundSynchronizerVendorGW" class="de.hybris.platform.cloud.azure.hotfolder.remote.inbound.AzureBlobInboundSynchronizer">
 <constructor-arg ref="azureBlobSessionFactoryVendorGW"/>
 <property name="deleteRemoteFiles" value="${azure.hotfolder.storage.delete.remote.files}"/>
 <property name="remoteDirectory" value="#{azureHotfolderRemotePath}"/>
@@ -29,7 +29,7 @@
 </bean>
 
 <bean id="azureBlobSynchronizingMessageSourceVendorGW"
-      class="de.hybris.platform.cloud.azure.hotfolder.remote.synchronizer.AzureBlobSynchronizingMessageSource">
+      class="de.hybris.platform.cloud.azure.hotfolder.remote.inbound.AzureBlobSynchronizingMessageSource">
 <constructor-arg ref="azureBlobInboundSynchronizerVendorGW"/>
 <constructor-arg ref="cloudHotFolderFileComparator"/>
 <property name="autoCreateLocalDirectory" value="true"/>
