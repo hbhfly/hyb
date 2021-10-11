@@ -1,6 +1,0 @@
-
-$defaultPassword=1234
-$setName=name[cellDecorator=de.hybris.platform.acceleratorservices.dataimport.batch.decorator.CustomerNameDecorator]
-
-INSERT_UPDATE Customer;uid[unique=true];$setName;title(code);password[default=$defaultPassword]
-;raw.impex@domain.com;Raw Impex;mr
