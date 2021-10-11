@@ -63,12 +63,11 @@
     <extension name='textfieldconfiguratortemplateatddtests' />
     <extension name='pcmbackofficesamplesaddon' />
 
-    <!--
+    
     <extension name='azurecloud' />
     <extension name='cloudcommons' />
     <extension name='cloudhotfolder' />
-    <extension name='azurecloudhotfolder' /> -->
-
+    <extension name='azurecloudhotfolder' /> 
     <extension name='multicloudhotfolder' />
 
   </extensions>

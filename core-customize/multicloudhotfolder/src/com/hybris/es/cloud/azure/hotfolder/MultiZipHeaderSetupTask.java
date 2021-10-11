@@ -15,6 +15,31 @@ import org.springframework.beans.factory.annotation.Required;
 import org.springframework.messaging.Message;
 import org.springframework.util.Assert;
 import de.hybris.platform.util.Config;
+import org.assertj.core.util.Lists;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.BeanFactoryAware;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.expression.EvaluationContext;
+import org.springframework.expression.Expression;
+import org.springframework.expression.ExpressionParser;
+import org.springframework.expression.common.LiteralExpression;
+import org.springframework.expression.spel.standard.SpelExpressionParser;
+import org.springframework.integration.expression.ExpressionUtils;
+import org.springframework.integration.file.filters.FileListFilter;
+import org.springframework.integration.file.filters.ResettableFileListFilter;
+import org.springframework.integration.file.filters.ReversibleFileListFilter;
+import org.springframework.integration.file.remote.RemoteFileTemplate;
+import org.springframework.integration.file.remote.session.Session;
+import org.springframework.integration.file.remote.session.SessionFactory;
+import org.springframework.integration.file.remote.synchronizer.AbstractInboundFileSynchronizer;
+import org.springframework.integration.file.remote.synchronizer.InboundFileSynchronizer;
+import org.springframework.messaging.MessagingException;
+import org.springframework.util.Assert;
+import org.springframework.util.ObjectUtils;
+import org.springframework.util.StringUtils;
 
 /*
     Replace default ZipHeaderSetupTask class
@@ -22,6 +47,7 @@ import de.hybris.platform.util.Config;
 
     This customization allows multi catalog management by fetching catalog name through regex pattern
  */
+@Component
 public class MultiZipHeaderSetupTask {
         private static final Logger LOG = LoggerFactory.getLogger(MultiZipHeaderSetupTask.class);
 
