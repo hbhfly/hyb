@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/b2bpunchoutaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/captchaaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/commerceorgaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/eventtrackingwsaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/merchandisingaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sapproductconfigb2baddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/secureportaladdon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/smarteditaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/textfieldconfiguratortemplateaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ysapproductconfigaddon" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="cms2server" level="project" />
+    <orderEntry type="library" name="ext" level="project" />
+    <orderEntry type="library" name="lib18" level="project" />
+    <orderEntry type="library" name="lib3" level="project" />
+    <orderEntry type="library" name="impexserver" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="library" name="ext2" level="project" />
+    <orderEntry type="library" name="bin2" level="project" />
+    <orderEntry type="library" name="lib11" level="project" />
+    <orderEntry type="library" name="lib56" level="project" />
+    <orderEntry type="library" name="lib39" level="project" />
+    <orderEntry type="library" name="lib13" level="project" />
+    <orderEntry type="library" name="solrj-lib2" level="project" />
+    <orderEntry type="library" name="lib30" level="project" />
+    <orderEntry type="library" name="lib22" level="project" />
+    <orderEntry type="library" name="lib54" level="project" />
+    <orderEntry type="library" name="coreserver" level="project" />
+    <orderEntry type="library" name="lib60" level="project" />
+    <orderEntry type="library" name="ext1" level="project" />
+    <orderEntry type="library" name="lib58" level="project" />
+    <orderEntry type="library" name="lib4" level="project" />
+    <orderEntry type="library" name="basecommerceserver" level="project" />
+    <orderEntry type="library" name="lib51" level="project" />
+    <orderEntry type="library" name="lib16" level="project" />
+    <orderEntry type="library" name="lib27" level="project" />
+    <orderEntry type="module" module-name="merchandisingcmswebservices" />
+    <orderEntry type="module" module-name="apiregistryservices" />
+    <orderEntry type="module" module-name="addonsrc" />
+    <orderEntry type="module" module-name="sapproductconfigservices" />
+    <orderEntry type="module" module-name="sapproductconfigruntimeinterface" />
+    <orderEntry type="module" module-name="commonwebsrc1" />
+    <orderEntry type="module" module-name="sapproductconfigfacades" />
+    <orderEntry type="module" module-name="b2bacceleratorfacades" />
+    <orderEntry type="module" module-name="acceleratoraddon21" />
+    <orderEntry type="module" module-name="merchandisingservices" />
+    <orderEntry type="module" module-name="merchandisingsmartedit" />
+    <orderEntry type="module" module-name="acceleratorstorefrontcommons" />
+    <orderEntry type="module" module-name="commercefacades" />
+    <orderEntry type="module" module-name="textfieldconfiguratortemplatefacades" />
+    <orderEntry type="module" module-name="smarteditaddon" />
+    <orderEntry type="module" module-name="commerceservices" />
+    <orderEntry type="module" module-name="commonweb" />
+    <orderEntry type="module" module-name="core" />
+    <orderEntry type="module" module-name="acceleratoraddon62" />
+    <orderEntry type="module" module-name="merchandisingaddon" />
+    <orderEntry type="module" module-name="cms2" />
+    <orderEntry type="module" module-name="acceleratoraddon2" />
+    <orderEntry type="module" module-name="addonsrc2" />
+    <orderEntry type="module" module-name="platformservices" />
+    <orderEntry type="module" module-name="ysapproductconfigaddon" />
+    <orderEntry type="module" module-name="addonsrc1" />
+    <orderEntry type="module" module-name="cmsfacades" />
+    <orderEntry type="module" module-name="acceleratorservices" />
+    <orderEntry type="module" module-name="bootstrap" />
+    <orderEntry type="module" module-name="sapproductconfigb2baddon" />
+    <orderEntry type="module" module-name="acceleratoraddon28" />
+    <orderEntry type="module" module-name="acceleratoraddon37" />
+    <orderEntry type="module" module-name="b2bpunchoutaddon" />
+    <orderEntry type="module" module-name="acceleratorfacades" />
+    <orderEntry type="module" module-name="b2bcommercefacades" />
+    <orderEntry type="module" module-name="commonwebsrc" />
+    <orderEntry type="module" module-name="impex" />
+  </component>
+</module>

@@ -1,0 +1,11 @@
+#Ant properties
+#Wed May 04 06:15:32 CEST 2022
+version.api=2105
+vendor=hybris
+group.id=de.hybris.platform
+name=yb2bacceleratorstorefront
+description=yb2bacceleratorstorefront
+builddate=20220504 0612
+releasedate=20210809 2305
+version=2105.11
+module.name=platform-module
