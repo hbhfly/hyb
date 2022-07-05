@@ -3,54 +3,22 @@
     <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
     
 		<!-- SAP CC extensions -->
-		<extension name='adaptivesearch'/>
-		<extension name='adaptivesearchbackoffice'/>
-		<extension name='adaptivesearchfacades'/>
-		<extension name='adaptivesearchsolr'/>
-		<extension name='adaptivesearchwebservices'/>
-		<extension name='wishlist'/>
-		<extension name='pcmbackoffice'/>
-
 		<extension name='backoffice'/>
-		<extension name='backofficesolrsearch'/>
 		<extension name='platformbackoffice'/>
 		<extension name='basecommerce'/>
 		<extension name='basecommercebackoffice'/>
-
-		<extension name='payment'/>
-		<extension name='promotions'/>
-		<extension name='promotionsbackoffice'/>
-
 		<extension name='commercefacades'/>
 		<extension name='commerceservices'/>
 		<extension name='commerceservicesbackoffice'/>
 		<extension name='commercewebservices'/>
-		
+
 		<extension name='acceleratorbackoffice'/>
-
-		<extension name='couponbackoffice'/>
-		<extension name='couponfacades'/>
-		<extension name='couponservices'/>
-		<extension name='couponwebservices'/>
-		<extension name='customercouponbackoffice'/>
-		<extension name='customercouponfacades'/>
-		<extension name='customercouponocc'/>
-		<extension name='customercouponservices'/>
-		<extension name='customersupportbackoffice'/>
-		<extension name='springintegrationlibs'/>
-		<extension name='promotionenginebackoffice'/>
-		<extension name='promotionengineservices'/>
-		<extension name='droolsruleengineservices'/>
-		<extension name='ordercalculation'/>
-		<extension name='rulebuilderbackoffice'/>
-		<extension name='ruledefinitions'/>
-		<extension name='ruleengine'/>
-		<extension name='ruleenginebackoffice'/>
-		<extension name='ruleengineservices'/>
-		<extension name='solrfacetsearch'/>
-		<extension name='solrfacetsearchbackoffice'/>
-		<extension name='solrserver'/>
-
+		<extension name='acceleratorcms'/>
+		<extension name='acceleratorfacades'/>
+		<extension name='acceleratorservices'/>
+		<extension name='acceleratorstorefrontcommons'/>
+		<extension name='tomcatembeddedserver'/>
+		
 		<extension name='cmssmartedit'/>
 		<extension name='cmssmarteditwebservices'/>
 		<extension name='smartedit'/>
@@ -67,17 +35,6 @@
 		<extension name='permissionswebservices'/>
 		<extension name='mediaconversion'/>
 		<extension name='mediaconversionbackoffice'/>
-
-		<!-- configurable bundle extensions-->
-		<extension name="subscriptionbundleservices"/>
-		<extension name="subscriptionbundlebackoffice"/>
-		<extension name="configurablebundlebackoffice"/>
-		<extension name="configurablebundleocc"/>
-
-		<!-- Integration API -->
-		<extension name="outboundservices"/>
-		<extension name="integrationmonitoringbackoffice"/>
-		<extension name="outboundsyncbackoffice"/>
 
   </extensions>
 </hybrisconfig>
