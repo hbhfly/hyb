@@ -3,7 +3,7 @@
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",  
-        "mediaconversionbackoffice"
+        "mediaconversionbackoffice",
       "commerceservicesbackoffice",
       "solrfacetsearchbackoffice",
       "solrserver",
