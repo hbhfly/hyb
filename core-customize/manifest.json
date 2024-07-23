@@ -39,6 +39,8 @@
       "personalizationcmsbackoffice",
       "personalizationsearchbackoffice",
       "personalizationsearchsmartedit",
+      "voucherbackoffice",
+      "voucher",
 	"adaptivesearch",
 	"adaptivesearchwebservices",
 	"adaptivesearchfacades",
