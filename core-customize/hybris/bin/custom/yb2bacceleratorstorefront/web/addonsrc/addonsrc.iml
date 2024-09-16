@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/accountsummaryaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/assistedservicecustomerinterestsaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/assistedservicepromotionaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/assistedservicestorefront" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/assistedserviceyprofileaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/b2bacceleratoraddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/b2bpunchoutaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/captchaaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/commerceorgaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/commerceorgsamplesaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/configurablebundleaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/consignmenttrackingaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/customercouponaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/customercouponsamplesaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/customerinterestsaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/customerticketingaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/eventtrackingwsaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/merchandisingaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notificationaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ordermanagementaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/orderselfserviceaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/personalizationaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/profiletagaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sapproductconfigb2baddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/secureportaladdon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/selectivecartsplitlistaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/smarteditaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stocknotificationaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/textfieldconfiguratortemplateaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/timedaccesspromotionengineaddon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/xyformssamples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/xyformsstorefrontcommons" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ysapproductconfigaddon" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="cms2server" level="project" />
+    <orderEntry type="library" name="lib31" level="project" />
+    <orderEntry type="library" name="ext" level="project" />
+    <orderEntry type="library" name="lib18" level="project" />
+    <orderEntry type="library" name="lib3" level="project" />
+    <orderEntry type="library" name="impexserver" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="library" name="ext2" level="project" />
+    <orderEntry type="library" name="bin2" level="project" />
+    <orderEntry type="library" name="lib11" level="project" />
+    <orderEntry type="library" name="lib56" level="project" />
+    <orderEntry type="library" name="personalizationservicesserver" level="project" />
+    <orderEntry type="library" name="lib39" level="project" />
+    <orderEntry type="library" name="paymentserver" level="project" />
+    <orderEntry type="library" name="lib40" level="project" />
+    <orderEntry type="library" name="lib13" level="project" />
+    <orderEntry type="library" name="solrj-lib2" level="project" />
+    <orderEntry type="library" name="europe1server" level="project" />
+    <orderEntry type="library" name="lib30" level="project" />
+    <orderEntry type="library" name="lib22" level="project" />
+    <orderEntry type="library" name="lib54" level="project" />
+    <orderEntry type="library" name="coreserver" level="project" />
+    <orderEntry type="library" name="validationserver" level="project" />
+    <orderEntry type="library" name="processingserver" level="project" />
+    <orderEntry type="library" name="lib60" level="project" />
+    <orderEntry type="library" name="ticketsystemserver" level="project" />
+    <orderEntry type="library" name="lib41" level="project" />
+    <orderEntry type="library" name="ext1" level="project" />
+    <orderEntry type="library" name="lib58" level="project" />
+    <orderEntry type="library" name="lib4" level="project" />
+    <orderEntry type="library" name="oauth2server" level="project" />
+    <orderEntry type="library" name="basecommerceserver" level="project" />
+    <orderEntry type="library" name="solrj-lib3" level="project" />
+    <orderEntry type="library" name="lib51" level="project" />
+    <orderEntry type="library" name="json-taglib-0.4.1" level="project" />
+    <orderEntry type="library" name="lib19" level="project" />
+    <orderEntry type="library" name="lib24" level="project" />
+    <orderEntry type="library" name="lib16" level="project" />
+    <orderEntry type="library" name="lib27" level="project" />
+    <orderEntry type="module" module-name="b2bapprovalprocess" />
+    <orderEntry type="module" module-name="addonsupport" />
+    <orderEntry type="module" module-name="backoffice-addons" />
+    <orderEntry type="module" module-name="acceleratorcms" />
+    <orderEntry type="module" module-name="commonwebsrc1" />
+    <orderEntry type="module" module-name="merchandisingservices" />
+    <orderEntry type="module" module-name="accountsummaryaddon" />
+    <orderEntry type="module" module-name="acceleratorstorefrontcommons" />
+    <orderEntry type="module" module-name="commercefacades" />
+    <orderEntry type="module" module-name="textfieldconfiguratortemplatefacades" />
+    <orderEntry type="module" module-name="smarteditaddon" />
+    <orderEntry type="module" module-name="commerceservices" />
+    <orderEntry type="module" module-name="b2bcommerce" />
+    <orderEntry type="module" module-name="personalizationaddon" />
+    <orderEntry type="module" module-name="core" />
+    <orderEntry type="module" module-name="customercouponfacades" />
+    <orderEntry type="module" module-name="platformservices" />
+    <orderEntry type="module" module-name="ysapproductconfigaddon" />
+    <orderEntry type="module" module-name="cmsfacades" />
+    <orderEntry type="module" module-name="notificationfacades" />
+    <orderEntry type="module" module-name="configurablebundlefacades" />
+    <orderEntry type="module" module-name="xyformsfacades" />
+    <orderEntry type="module" module-name="bootstrap" />
+    <orderEntry type="module" module-name="promotionenginesamplesaddon" />
+    <orderEntry type="module" module-name="commonwebsrc" />
+    <orderEntry type="module" module-name="impex" />
+    <orderEntry type="module" module-name="merchandisingcmswebservices" />
+    <orderEntry type="module" module-name="selectivecartfacades" />
+    <orderEntry type="module" module-name="consignmenttrackingfacades" />
+    <orderEntry type="module" module-name="apiregistryservices" />
+    <orderEntry type="module" module-name="sapproductconfigservices" />
+    <orderEntry type="module" module-name="sapproductconfigruntimeinterface" />
+    <orderEntry type="module" module-name="timedaccesspromotionenginefacades" />
+    <orderEntry type="module" module-name="b2bapprovalprocessfacades" />
+    <orderEntry type="module" module-name="secureportaladdon" />
+    <orderEntry type="module" module-name="assistedserviceservices" />
+    <orderEntry type="module" module-name="assistedservicefacades" />
+    <orderEntry type="module" module-name="sapproductconfigfacades" />
+    <orderEntry type="module" module-name="b2bacceleratorfacades" />
+    <orderEntry type="module" module-name="commonweb" />
+    <orderEntry type="module" module-name="merchandisingaddon" />
+    <orderEntry type="module" module-name="cms2" />
+    <orderEntry type="module" module-name="outboundsync" />
+    <orderEntry type="module" module-name="profileservices" />
+    <orderEntry type="module" module-name="customerinterestsfacades" />
+    <orderEntry type="module" module-name="acceleratorservices" />
+    <orderEntry type="module" module-name="b2bpunchout" />
+    <orderEntry type="module" module-name="b2bpunchoutaddon" />
+    <orderEntry type="module" module-name="acceleratorfacades" />
+    <orderEntry type="module" module-name="ordermanagementfacades" />
+    <orderEntry type="module" module-name="processing" />
+    <orderEntry type="module" module-name="stocknotificationfacades" />
+    <orderEntry type="module" module-name="web4" />
+    <orderEntry type="module" module-name="b2bcommercefacades" />
+    <orderEntry type="module" module-name="web5" />
+    <orderEntry type="module" module-name="assistedservicestorefront" />
+    <orderEntry type="module" module-name="customerticketingfacades" />
+  </component>
+</module>
